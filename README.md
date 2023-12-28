@@ -1,4 +1,4 @@
-# rdev.pro
+# Patrick He
 
 My personal website built with [Next.js](https://nextjs.org/).
 
@@ -19,10 +19,6 @@ npm run dev
 # or
 pnpm run dev
 ```
-
-Finally, create a local env file. Refer to [.env.example](./.env.example).
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to view the app.
 
 ## License
 
