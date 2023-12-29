@@ -9,8 +9,7 @@ export const siteConfig: SiteConfig = {
   ogImage: `${env.NEXT_PUBLIC_APP_URL}/og.jpg`,
   links: {
     github: "https://github.com/he-patrick",
-    facebook: "https://facebook.com/",
-    twitter: "https://twitter.com/",
+    resume: "https://ean8rq3bfwkcg2zc.public.blob.vercel-storage.com/Patrick_He_Resume.pdf",
     linkedin: "https://www.linkedin.com/in/patrickhe2005/",
   },
 }

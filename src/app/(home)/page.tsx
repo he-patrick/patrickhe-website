@@ -14,13 +14,13 @@ export default function Home() {
         </p>
         <p className="font-light">
           For app development, my main technologies are: {" "}
-          <span className="font-semibold">Next.js, React.js</span>,{" "}
-          <span className="font-semibold"></span>and,{" "}
+          <span className="font-semibold">Next.js, React.js,</span>{" "}
+          <span className="font-semibold"></span>and{" "}
           <span className="font-semibold">Typescript</span>.
         </p>
         <p className="font-light">
           With firmware & machine learning, my primary tools are: {" "}
-          <span className="font-semibold">Arudino, OpenCV</span>,{" "}
+          <span className="font-semibold">Arudino, OpenCV,</span>{" "}
           <span className="font-semibold"></span>and{" "}
           <span className="font-semibold">Tensorflow</span>.
         </p>
