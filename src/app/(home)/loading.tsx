@@ -13,16 +13,16 @@ export default function Home() {
           I'm a Computer Engineering student at the University of Waterloo, developing and exploring fullstack, firmware, and machine learning projects.
         </p>
         <p className="font-light">
-          My main technologies are: {" "}
-          <span className="font-semibold">Next.js</span>,{" "}
-          <span className="font-semibold"></span>, React.js{" "}
-          <span className="font-semibold">, and Arduino</span>.
+          For app development, my main technologies are: {" "}
+          <span className="font-semibold">Next.js, React.js</span>,{" "}
+          <span className="font-semibold"></span>and,{" "}
+          <span className="font-semibold">Typescript</span>.
         </p>
         <p className="font-light">
-          My main languages are: {" "}
-          <span className="font-semibold">Typescript</span>,{" "}
-          <span className="font-semibold"></span>, C++{" "}
-          <span className="font-semibold">, and Python</span>.
+          With firmware & machine learning, my primary tools are: {" "}
+          <span className="font-semibold">Arudino, OpenCV</span>,{" "}
+          <span className="font-semibold"></span>and{" "}
+          <span className="font-semibold">Tensorflow</span>.
         </p>
         <SocialMediaIcons />
       </section>
