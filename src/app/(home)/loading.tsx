@@ -8,17 +8,21 @@ export default function Home() {
   return (
     <main className="py-4">
       <section className="space-y-4 py-4">
-        <p className="font-light text-muted-foreground">Welcome to /rdev!</p>
+        <p className="font-light text-muted-foreground">Welcome to /he-patrick!</p>
         <p className="font-light">
-          I'm a motivated full-stack developer, continuously exploring and
-          learning cutting-edge technologies, with a focus on delivering
-          performant applications.
+          I'm a Computer Engineering student at the University of Waterloo, developing and exploring fullstack, firmware, and machine learning projects.
         </p>
         <p className="font-light">
-          My main tech stack for building apps is{" "}
+          My main technologies are: {" "}
           <span className="font-semibold">Next.js</span>,{" "}
-          <span className="font-semibold">React</span>, and{" "}
-          <span className="font-semibold">TypeScript</span>.
+          <span className="font-semibold"></span>, React.js{" "}
+          <span className="font-semibold">, and Arduino</span>.
+        </p>
+        <p className="font-light">
+          My main languages are: {" "}
+          <span className="font-semibold">Typescript</span>,{" "}
+          <span className="font-semibold"></span>, C++{" "}
+          <span className="font-semibold">, and Python</span>.
         </p>
         <SocialMediaIcons />
       </section>
