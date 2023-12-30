@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className="select-none bg-background">
       <div className="flex justify-between">
         <Link href="/" onClick={handleClick} className="flex items-center">
-          <h1 className="text-lg font-bold">/{siteConfig.name}</h1>
+          <h1 className="text-lg font-bold">// {siteConfig.name}</h1>
         </Link>
         <div className="flex gap-4">
           <ul className="flex items-center space-x-4 text-sm text-zinc-500 dark:text-zinc-400">

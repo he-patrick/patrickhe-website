@@ -8,19 +8,19 @@ export default function Home() {
   return (
     <main className="py-4">
       <section className="space-y-4 py-4">
-        <p className="font-light text-muted-foreground">Welcome to /he-patrick!</p>
+        <p className="font-light text-muted-foreground">Hey there, my name is Patrick He!</p>
         <p className="font-light">
           I'm a Computer Engineering student at the University of Waterloo, developing and exploring fullstack, firmware, and machine learning projects.
         </p>
         <p className="font-light">
           For app development, my main technologies are: {" "}
-          <span className="font-semibold">Next.js, React.js</span>,{" "}
-          <span className="font-semibold"></span>and,{" "}
+          <span className="font-semibold">Next.js, React.js,</span>{" "}
+          <span className="font-semibold"></span>and{" "}
           <span className="font-semibold">Typescript</span>.
         </p>
         <p className="font-light">
           With firmware & machine learning, my primary tools are: {" "}
-          <span className="font-semibold">Arudino, OpenCV</span>,{" "}
+          <span className="font-semibold">Arudino, OpenCV,</span>{" "}
           <span className="font-semibold"></span>and{" "}
           <span className="font-semibold">Tensorflow</span>.
         </p>

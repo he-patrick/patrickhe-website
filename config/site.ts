@@ -2,7 +2,7 @@ import { SiteConfig } from "../src/types"
 import { env } from "../env.mjs"
 
 export const siteConfig: SiteConfig = {
-  name: "he-patrick",
+  name: "Patrick He",
   author: "he-patrick",
   description: "My personal website.",
   url: env.NEXT_PUBLIC_APP_URL,

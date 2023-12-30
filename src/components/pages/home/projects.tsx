@@ -25,17 +25,17 @@ export async function Projects() {
             <div className="flex justify-between">
               <a
                 target="_blank"
-                href={project.link}
+                href={project.html_url}
                 rel="noopener noreferrer"
-                aria-label={project.repo}
+                aria-label={project.name}
               >
                 <CardTitle className="text-base hover:underline">
-                  {project.repo}
+                  {project.name}
                 </CardTitle>
               </a>
               <a
                 target="_blank"
-                href={project.website || project.link}
+                href={project.website || project.html_url}
                 rel="noopener noreferrer"
                 aria-label="Visit the project's live url/repo"
               >
@@ -57,7 +57,7 @@ export async function Projects() {
             </Badge>
             <CardDescription className="flex items-center gap-1">
               <Star className="h-4 w-4" />
-              {project.stars}
+              {project.stargazers_count}
             </CardDescription>
           </CardFooter>
         </Card>

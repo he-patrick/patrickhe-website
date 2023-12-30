@@ -15,12 +15,12 @@ export type SiteConfig = {
 // *API*
 // Github
 type Repo = {
-  repo: string
+  name: string
   description: string
   language: string
   languageColor: string
-  stars: number
-  link: string
+  stargazers_count: number
+  html_url: string
   website: string
 }
 
