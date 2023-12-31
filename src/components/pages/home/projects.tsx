@@ -26,6 +26,7 @@ function getLanguageColor(language: string): string {
     'Ruby': '#913832', // Ruby: Muted Red
     'Swift': '#d99058', // Swift: Soft Orange
     'Go': '#5DC9E2', // Go: Soft Blue
+    'TypeScript': '#3178C6', // TypeScript: Light Blue
     // add other languages and their colors here
   };
 
@@ -33,7 +34,14 @@ function getLanguageColor(language: string): string {
 }
 
 export async function Projects() {
-  const data = (await getRepo()) as Repo[]
+
+  let allData = (await getRepo()) as Repo[];
+
+  // Define the names of the repositories you want to display
+  const chosenRepos = ['hackthevalley8', 'hackwestern10', 'OnlinePredatorDetector', 'cam-tag', 'leetcode', 'patrickhe-website'];
+
+  // Filter the repositories
+  const data = chosenRepos.map(repoName => allData.find(repo => repo.name === repoName)).filter(Boolean) as Repo[];
 
   return (
     <>
