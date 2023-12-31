@@ -24,8 +24,8 @@ export function DiscordStatus(data: DiscordApiResponse) {
           <Avatar>
             <AvatarImage
               src={`https://cdn.discordapp.com/avatars/${data.data.discord_user.id}/${data.data.discord_user.avatar}`}
-            />
-            <AvatarFallback>R</AvatarFallback>
+            />    
+            <AvatarFallback>P</AvatarFallback>
           </Avatar>
         </div>
         <div>
