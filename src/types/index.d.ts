@@ -21,7 +21,7 @@ type Repo = {
   languageColor: string
   stargazers_count: number
   html_url: string
-  website: string
+  homepage: string
 }
 
 // Wakatime
