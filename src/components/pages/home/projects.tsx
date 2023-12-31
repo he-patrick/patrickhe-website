@@ -17,16 +17,16 @@ import {
 function getLanguageColor(language: string): string {
   const languageColors: {[key: string]: string} = {
     'HTML': '#d96b40', // HTML: Softer Orange
-      'JavaScript': '#dab860', // JavaScript: Muted Yellow
-      'Python': '#4B8BBE', // Python: Soft Blue
-      'Java': '#a88532', // Java: Muted Brown
-      'C#': '#4C8054', // C#: Soft Green
-      'C++': '#d67b96', // C++: Soft Pink
-      'CSS': '#7b6d95', // CSS: Muted Purple
-      'Ruby': '#913832', // Ruby: Muted Red
-      'Swift': '#d99058', // Swift: Soft Orange
-      'Go': '#5DC9E2', // Go: Soft Blue
-      // add other languages and their colors here
+    'JavaScript': '#dab860', // JavaScript: Muted Yellow
+    'Python': '#4B8BBE', // Python: Soft Blue
+    'Java': '#a88532', // Java: Muted Brown
+    'C#': '#4C8054', // C#: Soft Green
+    'C++': '#d67b96', // C++: Soft Pink
+    'CSS': '#7b6d95', // CSS: Muted Purple
+    'Ruby': '#913832', // Ruby: Muted Red
+    'Swift': '#d99058', // Swift: Soft Orange
+    'Go': '#5DC9E2', // Go: Soft Blue
+    // add other languages and their colors here
   };
 
   return languageColors[language] || '#7a7e83'; // Default color if language not found
