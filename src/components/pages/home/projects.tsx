@@ -38,7 +38,7 @@ export async function Projects() {
   let allData = (await getRepo()) as Repo[];
 
   // Define the names of the repositories you want to display
-  const chosenRepos = ['custom-smart-speaker', 'tranSLate', 'OnlinePredatorDetector', 'cam-tag', 'leetcode', 'patrickhe-website'];
+  const chosenRepos = ['custom-smart-speaker', 'tranSLate', 'OnlinePredatorDetector', 'cam-tag', 'trashify', 'patrickhe-website'];
 
   // Filter the repositories
   const data = chosenRepos.map(repoName => allData.find(repo => repo.name === repoName)).filter(Boolean) as Repo[];
